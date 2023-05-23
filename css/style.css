@@ -11,7 +11,7 @@
 }
 
 .header {
-  width: 1920px;
+  width: 100%;
   height: 100px;
   background: rgba(16, 16, 29, 0.9);
   position: fixed;
@@ -24,7 +24,32 @@
 .header .wrapper .left {
   font-size: 28px;
   font-weight: 800;
+  margin-top: 33.5px;
+  text-transform: uppercase;
+  color: #fff;
 }
 .header .wrapper .left span {
+  color: #3E9CDC;
+}
+.header .wrapper .right {
+  margin-top: 44.5px;
+}
+.header .wrapper .right ul {
+  display: inline-flex;
+}
+.header .wrapper .right ul li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+.header .wrapper .right ul li a {
+  text-decoration: none;
   color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+.header .wrapper .right ul li a:hover {
+  color: #3E9CDC;
+}
+.header .wrapper .right ul li:last-child {
+  margin-right: 0;
 }/*# sourceMappingURL=style.css.map */
