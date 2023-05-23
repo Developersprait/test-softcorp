@@ -1,5 +1,18 @@
 .header{
     width: 1920px;
     height: 100px;
-    background: $black;
+    background: rgba(16, 16, 29, 0.9);
+    position: fixed;
+    z-index: 100;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            font-size: 28px;
+            font-weight: 800;
+            span{
+                color:#fff;
+            }
+        }
+    }
 }
