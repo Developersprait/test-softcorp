@@ -52,4 +52,59 @@
 }
 .header .wrapper .right ul li:last-child {
   margin-right: 0;
+}
+
+.hero {
+  max-width: 1920px;
+  height: 850px;
+  background: url(../img/hero.png);
+  margin: 0 auto;
+}
+.hero .info {
+  width: 780px;
+}
+.hero .info .title {
+  padding-top: 203px;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.hero .info .title span {
+  color: #3E9CDC;
+}
+.hero .info .subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  width: 534px;
+  margin-bottom: 10px;
+}
+.hero .info ul {
+  margin-bottom: 80px;
+}
+.hero .info ul li {
+  list-style-type: " -  ";
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.hero .info .btn {
+  width: 183px;
+  height: 43px;
+  background: #fff;
+  border: 1px solid rgba(16, 16, 29, 0.8980392157);
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: 0.3s all;
+}
+.hero .info .btn:last-child {
+  margin-left: 30px;
+}
+.hero .info .btn:hover {
+  background: #3E9CDC;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,54 @@
+.hero {
+    max-width: 1920px;
+    height: 850px;
+    background: url(../img/hero.png);
+    margin: 0 auto;
+    .info {
+        width: 780px;
+        .title {
+            padding-top: 203px;
+            font-size: 48px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 80px;
+            span {
+                color: $blue;
+            }
+        }
+        .subtitle{
+            font-size: 20px;
+            font-weight: 700;
+            width: 534px;
+            margin-bottom: 10px;
+        }
+        ul{
+            margin-bottom: 80px;
+            li{
+                list-style-type: " -  ";
+                font-size: 20px;
+                font-weight: 400;
+                margin-bottom: 5px;
+            }
+        }
+        .btn{
+            width: 183px;
+            height: 43px;
+            background:#fff;
+            border: 1px solid $black;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: uppercase;
+            transition: 0.3s all;
+        }
+        .btn:last-child{
+            margin-left: 30px;
+        }
+        .btn:hover{
+            background: $blue;
+            color:#fff;
+            border: 1px solid #fff;
+            cursor: pointer;
+        }
+    }
+}
