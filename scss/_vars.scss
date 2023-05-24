@@ -1,2 +1,6 @@
 $blue: #3E9CDC;
 $black: #10101DE5;
+@mixin img{
+    width: 100px;
+    height: 100px;
+}

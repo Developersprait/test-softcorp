@@ -60,35 +60,35 @@
   background: url(../img/hero.png);
   margin: 0 auto;
 }
-.hero .info {
+.hero .text {
   width: 780px;
 }
-.hero .info .title {
+.hero .text .title {
   padding-top: 203px;
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 80px;
 }
-.hero .info .title span {
+.hero .text .title span {
   color: #3E9CDC;
 }
-.hero .info .subtitle {
+.hero .text .subtitle {
   font-size: 20px;
   font-weight: 700;
   width: 534px;
   margin-bottom: 10px;
 }
-.hero .info ul {
+.hero .text ul {
   margin-bottom: 80px;
 }
-.hero .info ul li {
+.hero .text ul li {
   list-style-type: " -  ";
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 5px;
 }
-.hero .info .btn {
+.hero .text .btn {
   width: 183px;
   height: 43px;
   background: #fff;
@@ -99,12 +99,76 @@
   text-transform: uppercase;
   transition: 0.3s all;
 }
-.hero .info .btn:last-child {
+.hero .text .btn:last-child {
   margin-left: 30px;
 }
-.hero .info .btn:hover {
+.hero .text .btn:hover {
   background: #3E9CDC;
   color: #fff;
   border: 1px solid #fff;
   cursor: pointer;
+}
+
+.info {
+  width: 100%;
+  height: 1000px;
+  background: rgb(16, 16, 29);
+  position: relative;
+  z-index: 1;
+}
+.info .sub {
+  background: url("../img/map.png");
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.info .sub .wrapper {
+  padding-top: 100px;
+}
+.info .sub .wrapper .title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.info .sub .wrapper .title span {
+  color: #3E9CDC;
+}
+.info .sub .wrapper .subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.info .sub .wrapper .items {
+  display: flex;
+  justify-content: space-between;
+}
+.info .sub .wrapper .items .item {
+  width: 188px;
+}
+.info .sub .wrapper .items .item .img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.info .sub .wrapper .items .item .text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 194px;
+}
+.info .sub .wrapper .items .dots {
+  width: 146px;
+  height: 6px;
+  background: url(../img/6.png);
+  position: relative;
+  z-index: 100;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
